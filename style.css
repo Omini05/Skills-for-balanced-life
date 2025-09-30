@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.subtitle {
+  margin: 8px 0 0 0;
+  font-size: 1.1em;
+  opacity: 0.85;
+  text-align: center;   /* Center aligned */
+  color: #e3eaf5;       /* softer contrast look */
+}
+
+.author {
+  font-size: 1em;
+  margin-top: 10px;
+  font-style: italic;
+  opacity: 0.95;
+  text-align: center;
+}
+
+main {
+  max-width: 950px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #0d47a1;
+  border-bottom: 2px solid #1976d2;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #1976d2;
+  margin-top: 20px;
+}
+
+p {
+  margin: 12px 0;
+  text-align: justify;
+}
+
+ul {
+  margin: 15px 0 15px 25px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+strong {
+  color: #000;
+}
+
+footer {
+  background: #0d47a1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
