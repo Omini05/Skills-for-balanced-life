@@ -1,61 +1,60 @@
 /* FILE: exam-resilience.css */
 :root{
---bg:#f4f8fb;
---card:#ffffff;
---accent:#009688;
---text:#1a2a33;
---muted:#6c7a89;
+  --bg:#f4f8fb;
+  --card:#ffffff;
+  --accent:#00796B;
+  --text:#1a2a33;
+  --muted:#6c7a89;
 }
-
 
 *{box-sizing:border-box}
 body{
-margin:0;
-font-family: "Segoe UI", Roboto, Arial, sans-serif;
-background:var(--bg);
-color:var(--text);
-line-height:1.7;
+  margin:0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
 }
 .container{
-max-width:960px;
-margin:0 auto;
-padding:24px;
+  max-width:960px;
+  margin:0 auto;
+  padding:24px;
 }
 .site-header{
-background:linear-gradient(90deg, rgba(0,150,136,0.95), rgba(0,150,136,0.75));
-color:#fff;
-padding:48px 0;
+  background:linear-gradient(90deg, rgba(0,121,107,0.95), rgba(0,121,107,0.75));
+  color:#fff;
+  padding:48px 0;
 }
 .site-header h1{
-margin:0 0 8px 0;
-font-size:1.8rem;
-line-height:1.2;
+  margin:0 0 8px 0;
+  font-size:1.8rem;
+  line-height:1.2;
 }
 .byline{
-opacity:0.9;
-margin:0;
+  opacity:0.9;
+  margin:0;
 }
 section{
-background:var(--card);
-padding:20px;
-margin-bottom:20px;
-border-radius:10px;
-box-shadow:0 4px 12px rgba(0,0,0,0.05);
+  background:var(--card);
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
 h2{
-margin-top:0;
-color:var(--accent);
+  margin-top:0;
+  color:var(--accent);
 }
 ul{
-margin:10px 0 10px 20px;
+  margin:10px 0 10px 20px;
 }
 .site-footer{
-padding:16px 0;
-text-align:center;
-color:var(--muted);
-font-size:0.9rem;
+  padding:16px 0;
+  text-align:center;
+  color:var(--muted);
+  font-size:0.9rem;
 }
 @media (max-width:640px){
-.site-header h1{font-size:1.3rem}
-.container{padding:16px}
+  .site-header h1{font-size:1.3rem}
+  .container{padding:16px}
 }
