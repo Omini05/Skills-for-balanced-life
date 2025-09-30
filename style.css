@@ -1,84 +1,61 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f6f9;
-  color: #333;
+/* FILE: styles.css */
+/* styles.css — visual styling for Skills for a Balanced Life page */
+:root{
+--bg:#f7f9fb;
+--card:#ffffff;
+--accent:#0b6cff;
+--text:#102a43;
+--muted:#5a6b7a;
 }
 
-header {
-  background: linear-gradient(135deg, #0d47a1, #1976d2);
-  color: #fff;
-  padding: 30px 20px;
-  text-align: center;
-}
 
-header h1 {
-  margin: 0;
-  font-size: 2em;
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+background:var(--bg);
+color:var(--text);
+line-height:1.6;
 }
-
-.subtitle {
-  margin: 8px 0 0 0;
-  font-size: 1.1em;
-  opacity: 0.85;
-  text-align: center;   /* Center aligned */
-  color: #e3eaf5;       /* softer contrast look */
+.container{
+max-width:960px;
+margin:0 auto;
+padding:24px;
 }
-
-.author {
-  font-size: 1em;
-  margin-top: 10px;
-  font-style: italic;
-  opacity: 0.95;
-  text-align: center;
+.site-header{
+background:linear-gradient(90deg, rgba(11,108,255,0.95), rgba(11,108,255,0.75));
+color:#fff;
+padding:48px 0;
 }
-
-main {
-  max-width: 950px;
-  margin: 30px auto;
-  background: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+.site-header h1{
+margin:0 0 8px 0;
+font-size:1.6rem;
+line-height:1.2;
 }
-
-h2 {
-  color: #0d47a1;
-  border-bottom: 2px solid #1976d2;
-  padding-bottom: 5px;
-  margin-top: 30px;
+.byline{
+opacity:0.95;
+margin:0;
 }
-
-h3 {
-  color: #1976d2;
-  margin-top: 20px;
+main{
+margin-top:24px;
 }
-
-p {
-  margin: 12px 0;
-  text-align: justify;
+section{
+background:var(--card);
+padding:18px;
+margin-bottom:18px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(16,42,67,0.06);
 }
-
-ul {
-  margin: 15px 0 15px 25px;
+h2{
+margin-top:0;
+color:var(--accent);
 }
-
-ul li {
-  margin-bottom: 8px;
+.site-footer{
+padding:18px 0;
+text-align:center;
+color:var(--muted);
 }
-
-strong {
-  color: #000;
-}
-
-footer {
-  background: #0d47a1;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+@media (max-width:640px){
+.site-header h1{font-size:1.2rem}
+.container{padding:16px}
 }
